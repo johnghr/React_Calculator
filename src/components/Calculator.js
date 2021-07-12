@@ -33,7 +33,7 @@ function Calculator(props) {
           <button data-testid="number2" id="number2" onClick={() => numberClick('2')}>2</button>
           <button data-testid="number3" id="number3" onClick={() => numberClick('3')}>3</button>
           <button data-testid="subtract" id="operator_subtract" onClick={() => operatorClick('-')}>-</button>
-          <button data-testid="decimal" id="decimal" onClick={() => operatorClick('.')}>.</button>
+          <button data-testid="decimal" id="operator_decimal" onClick={() => operatorClick('.')}>.</button>
           <button data-testid="number0" id="number0" onClick={() => numberClick('0')}>0</button>
           <button data-testid="equals" id="operator_equals" onClick={() => operatorClick('=')}>=</button>
           <button data-testid="add" id="operator_add" onClick={() => operatorClick('+')}>+</button>
